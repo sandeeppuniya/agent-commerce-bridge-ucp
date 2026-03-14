@@ -1,3 +1,12 @@
-fastapi
-uvicorn
-pydantic
+# See's Candies UCP Gateway – Production Dependencies
+#
+# Core framework and server
+fastapi>=0.110.0          # Web framework for building APIs
+uvicorn[standard]>=0.27.0 # ASGI server for running the application
+pydantic>=2.6.0           # Data validation and serialization
+
+# Optional: For testing and development
+# pytest>=7.0.0
+# pytest-asyncio>=0.21.0
+# httpx>=0.24.0
+# pytest-cov>=4.0.0
